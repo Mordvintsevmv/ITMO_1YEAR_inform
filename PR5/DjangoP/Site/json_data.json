@@ -1,0 +1,668 @@
+{
+  "name": "ITMO University",
+  "rector": "Васильев Владимир Николаевич",
+  "location": {
+    "postcode": "197101",
+    "city": "St. Petersburg",
+    "address": "Kronverksky 49"
+  },
+  "units": {
+    "administration": [
+      {
+        "name": "Ректорат",
+        "id": 1,
+        "head": {
+          "name": "Васильев Владимир Николаевич",
+          "position": "Ректор",
+          "tab_number": "95843"
+        }
+      },
+      {
+        "name": "Бухгалтерия",
+        "id": 2,
+        "head": {
+          "name": "Михеева Светлана Яковлевна",
+          "position": "Начальник общего отдела бухгалтерии",
+          "tab_number": "132351"
+        }
+      }
+    ],
+    "education": [
+      {
+        "name": "Мегафакультет компьютерных технологий и управления",
+        "id": 3,
+        "head": {
+          "name": "Петр Петрович Петров",
+          "position": "к.т.н.",
+          "tab_number": "75264"
+        },
+        "faculties": [
+          {
+            "name": "Факультет программной инженерии и компьютерной техники",
+            "id": 4,
+            "head": {
+              "name": "Кустарев Павел Валерьевич",
+              "position": "Декан факультета программной инженерии и компьютерной техники",
+              "tab_number": "999"
+            },
+            "cathedr": [
+              {
+                "name": "Интересная кафедра",
+                "id": 123,
+                "head": {
+                  "name": "Хороший человек",
+                  "position": "Высокая",
+                  "tab_number": "5234"
+                },
+                "teachers": [
+                  {
+                    "name": "Преподаватель Хороший",
+                    "position": "ыр",
+                    "tab_number": "43212"
+                  },
+                  {
+                    "name": "Преподаватель Ещё",
+                    "position": "ыр",
+                    "tab_number": "74213"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Приборостроение",
+                    "id": 1463,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "K3110",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Другая кафедра",
+                "id": 123,
+                "head": {
+                  "name": "Ещё более хороший челвоек",
+                  "position": "Куда выше",
+                  "tab_number": "6345"
+                },
+                "teachers": [
+                  {
+                    "name": "Интересный преподаватель",
+                    "position": "3",
+                    "tab_number": "33"
+                  },
+                  {
+                    "name": "Классный преподаватель",
+                    "position": "44",
+                    "tab_number": "44"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Приборостроение",
+                    "id": 1463,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "K3110",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Факультет безопасности информационных технологий",
+            "id": 100201,
+            "head": {
+              "name": "Заколдаев Данил Анатольевич",
+              "position": "декан факультета безопасности информационных технологий",
+              "tab_number": "424524"
+            },
+            "cathedr": [
+              {
+                "name": "Кафедра под номером 2",
+                "id": 12312,
+                "head": {
+                  "name": "name name name",
+                  "position": "Отличный",
+                  "tab_number": "4224"
+                },
+                "teachers": [
+                  {
+                    "name": "Человек 1",
+                    "position": "7777",
+                    "tab_number": "777"
+                  },
+                  {
+                    "name": "Человек 2",
+                    "position": "123",
+                    "tab_number": "321"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Веб-программирование",
+                    "id": 1231235,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Мегафакультет фотоники",
+        "id": 5,
+        "head": {
+          "name": "Стыдно не знать",
+          "position": "к.т.н.",
+          "tab_number": "03876"
+        },
+        "faculties": [
+          {
+            "name": "Факультет программной инженерии и компьютерной техники",
+            "id": 4,
+            "head": {
+              "name": "Блин, забыл",
+              "position": "Декан факультета программной инженерии и компьютерной техники",
+              "tab_number": "43715"
+            },
+            "cathedr": [
+              {
+                "name": "Блаблаблабла",
+                "id": 123132,
+                "head": {
+                  "name": "Деревьев Павел Валерьевич",
+                  "position": "гыргыргыр",
+                  "tab_number": "42334524"
+                },
+                "teachers": [
+                  {
+                    "name": "Человек 1",
+                    "position": "7777",
+                    "tab_number": "777"
+                  },
+                  {
+                    "name": "Человек 2",
+                    "position": "123",
+                    "tab_number": "321"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Крутая программа",
+                    "id": 112223,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3160",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Факультет безопасности информационных технологий",
+            "id": 12312313,
+            "head": {
+              "name": "Оченб уважаемый человек",
+              "position": "Декан факультета безопасности информационных технологий",
+              "tab_number": "809"
+            },
+            "cathedr": [
+              {
+                "name": "Странно как-то",
+                "id": 12312,
+                "head": {
+                  "name": "Человек странный",
+                  "position": "Так и быть",
+                  "tab_number": "67678"
+                },
+                "teachers": [
+                  {
+                    "name": "Человек 1",
+                    "position": "7777",
+                    "tab_number": "777"
+                  },
+                  {
+                    "name": "Человек 2",
+                    "position": "123",
+                    "tab_number": "321"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Системное программирование",
+                    "id": 123,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Факультет разнообразия",
+            "id": 5,
+            "head": {
+              "name": "Разнообразный",
+              "position": "Декан факультета программной инженерии и компьютерной техники",
+              "tab_number": "32445678"
+            },
+            "cathedr": [
+              {
+                "name": "Ну да",
+                "id": 123132,
+                "head": {
+                  "name": "Он самый",
+                  "position": "000",
+                  "tab_number": "000"
+                },
+                "teachers": [
+                  {
+                    "name": "Человек 1",
+                    "position": "7777",
+                    "tab_number": "777"
+                  },
+                  {
+                    "name": "Человек 2",
+                    "position": "123",
+                    "tab_number": "321"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Там, где пишут игры",
+                    "id": 112223,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3160",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Уже даже скучно",
+                "id": 123132,
+                "head": {
+                  "name": "Всё ещё хорший",
+                  "position": "Суперская",
+                  "tab_number": "345676"
+                },
+                "teachers": [
+                  {
+                    "name": "Человек 1",
+                    "position": "7777",
+                    "tab_number": "777"
+                  },
+                  {
+                    "name": "Человек 2",
+                    "position": "123",
+                    "tab_number": "321"
+                  }
+                ],
+                "education_programs": [
+                  {
+                    "name": "Что-то интересное",
+                    "id": 112223,
+                    "discipline": "Информатика",
+                    "year": {
+                      "2016/2017": [
+                        {
+                          "name": "K3120",
+                          "students": [
+                            {
+                              "name": "Сосед справа",
+                              "tab_number": "4224",
+                              "scholarship": "3442234"
+                            },
+                            {
+                              "name": "Бывает и такое",
+                              "tab_number": "3663",
+                              "scholarship": "0"
+                            },
+                            {
+                              "name": "Я не знаю, что написать",
+                              "tab_number": "7227",
+                              "scholarship": "2772"
+                            }
+                          ]
+                        }
+                      ],
+                      "2015/2016": [
+                        {
+                          "name": "K3160",
+                          "students": [
+                            {
+                              "name": "Когда стипендия",
+                              "tab_number": "666",
+                              "scholarship": "10000$"
+                            },
+                            {
+                              "name": "Нет на парах",
+                              "tab_number": "0423423",
+                              "scholarship": "1$"
+                            },
+                            {
+                              "name": "Сосед слева",
+                              "tab_number": "9465",
+                              "scholarship": "Должен 5000р"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
